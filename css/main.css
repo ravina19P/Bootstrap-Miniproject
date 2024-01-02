@@ -1,0 +1,420 @@
+/* font-family: 'Baloo Bhai 2', cursive;
+font-family: 'Lato', sans-serif;
+font-family: 'Open Sans', sans-serif; 
+font-family: 'Lumanosimo', cursive;
+font-family: 'Pacifico', cursive;
+font-family: 'Poppins', sans-serif; */
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+
+/* NAVBAR */
+.top-header span,
+a,
+i {
+    color: rgb(146, 142, 135) !important;
+    font-size: 12px;
+}
+
+.top-header a {
+    text-decoration: underline;
+}
+
+.top-header i {
+    font-size: 16px;
+    padding: 0px 3px;
+}
+
+.top-header i:hover {
+    color: orange !important;
+}
+
+.nav-link {
+    color: rgb(60, 58, 58) !important;
+}
+
+.nav-link:hover {
+    color: rgb(54, 50, 50);
+    border-bottom: 3px solid transparent;
+}
+
+.topnav .nav-link:hover {
+    border-bottom: 3px rgb(252, 219, 90)
+}
+
+.topnav .nav-link:active {
+    border-bottom: 3px rgb(252, 219, 90)
+}
+
+.custom_btn {
+    border-radius: 25px;
+    padding: 10px 50px;
+    background-color: rgb(252, 219, 90);
+    border: none;
+}
+
+.custom_btn:hover {
+    background-color: #fff;
+    border: 3px solid rgb(252, 219, 90);
+}
+
+.nav-link i {
+    font-size: 25px;
+    color: black !important;
+}
+
+.container {
+    padding: 0px 50px;
+}
+
+.nav_content {
+    padding: 0px 80px;
+}
+
+.dropdown-menu {
+    background-color: black;
+}
+
+.dropdown-item {
+    color: white;
+}
+
+.menu-toggle {
+    display: none;
+}
+.menu-icon i{
+    display: none;
+}
+
+/* SLIDER */
+.slider-item {
+    position: relative;
+    text-align: center;
+}
+
+.slider-content {
+    position: absolute;
+    color: black;
+}
+
+.__title {
+    font-size: 75px;
+    font-weight: 900;
+
+}
+
+.__title span {
+    font-size: 75px;
+    font-weight: 50;
+}
+
+.custom_btn2 {
+    border-radius: 30px;
+    padding: 20px 60px;
+    background-color: #fff;
+    border: 3px solid rgb(252, 219, 90);
+}
+
+.custom_btn2:hover {
+    background-color: rgb(252, 219, 90);
+    border: none;
+}
+
+.custom_btn3 {
+    border-radius: 30px;
+    padding: 20px 60px;
+    background-color: rgb(252, 219, 90);
+    border: none;
+}
+
+.custom_btn3:hover {
+    background-color: #fff;
+    border: 3px solid rgb(252, 219, 90);
+}
+
+.custom_btn3_1 {
+    border-radius: 30px;
+    padding: 20px 60px;
+    background-color: transparent;
+    border: 3px solid rgb(252, 219, 90);
+}
+
+.custom_btn3_1:hover {
+    background-color: rgb(252, 219, 90);
+    border: none;
+}
+
+.margin-tb-50 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+/* icons an caption portion */
+.border-right {
+    border-right: 1px solid #ccc;
+}
+
+/* FEATURED PRODUCTS */
+.FEATURED-PRODUCTS {
+    margin: 40px 50px;
+}
+
+.container_featured {
+    margin: 30px 70px;
+}
+
+.__title2 {
+    font-size: 50px;
+    font-weight: 900;
+
+}
+
+.__title2 span {
+    font-size: 50px;
+    font-weight: 50;
+}
+
+.slider_1 .card-img-top {
+    padding: 25px 25px;
+}
+
+.slider_2 .card-img-top {
+    padding: 25px 25px;
+}
+
+.slider_3 .card-img-top {
+    padding: 25px 25px;
+}
+
+.custom_btn4 {
+    border-radius: 50px;
+    padding: 10px 20px;
+    background-color: #fff;
+    border: 3px solid rgb(252, 219, 90);
+}
+
+.custom_btn4:hover {
+    background-color: rgb(252, 219, 90);
+    border: none;
+}
+
+.card {
+    margin: 20px 20px;
+    padding: 10px 10px;
+}
+
+.product-label-sale {
+    width: 60px;
+    height: 30px;
+    background-color: red;
+    color: white;
+    text-align: center;
+}
+
+.product-label-hot {
+    width: 60px;
+    height: 30px;
+    background-color: orange;
+    color: white;
+    text-align: center;
+}
+
+.product-label-new {
+    width: 60px;
+    height: 30px;
+    background-color: green;
+    color: white;
+    text-align: center;
+}
+
+.featured_card {
+    position: relative;
+    width: 16rem;
+    height: 32rem;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.featured_card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* slider_bottom2 */
+.img-container {
+    padding: 10px 10px;
+    margin: 100px 10px;
+}
+
+/* Farm_products */
+.Farm_products {
+    padding: 15px 80px;
+    margin: 18px 20px;
+}
+
+/*healthy_life*/
+.cursive_text {
+    font-family: 'Pacifico', cursive;
+    font-size: 150px;
+    margin: 100px 30px;
+}
+
+/* BESTSELLER PRODUCTS */
+.card-body {
+    margin: 30px 0px;
+}
+
+.product_container {
+    margin: 50px 15px;
+}
+
+/* Fresh Exotic Fruits */
+.custom_btn5 {
+    border-radius: 50px;
+    padding: 10px 50px;
+    background-color: #fff;
+    border: 3px solid rgb(252, 219, 90);
+}
+
+.custom_btn5:hover {
+    background-color: rgb(252, 219, 90);
+    border: none;
+}
+
+.banner_container {
+    background-color: rgb(180 196 200 / 15%);
+    margin: 70px 30px;
+}
+
+/* ABOUT AGRO */
+.inv_coma i {
+    font-size: 50px;
+    color: rgb(252, 219, 90);
+}
+
+/* PEOPLE SAYS ABOUT AGRO */
+.review {
+    font-family: 'Lumanosimo', cursive;
+    font-size: 18px;
+}
+
+.custom_review {
+    padding: 10px 80px;
+}
+
+/* BLOG POSTS */
+.custom_font {
+    font-size: 14px;
+}
+
+.custom_btn6 {
+    border-radius: 50px;
+    padding: 15px 45px;
+    background-color: #fff;
+    border: 3px solid rgb(252, 219, 90);
+    margin: 13px 50px;
+}
+
+.custom_btn6:hover {
+    background-color: rgb(252, 219, 90);
+    border: none;
+}
+
+.BLOG_POSTS img {
+    margin: -60px -10px;
+}
+
+.container_new {
+    margin: 50px 80px;
+}
+
+/* sponcer */
+.sponcers {
+    margin: 75px 10px;
+}
+
+.img_container {
+    text-align: center;
+    padding: 20px 20px;
+}
+
+.img_container img {
+    padding: 50px 30px;
+}
+
+.card-group-item {
+    border: none;
+}
+
+/* footer */
+.footer {
+    padding: 75px 0px;
+    background-color: rgb(51, 51, 51);
+}
+
+.footer__item li {
+    list-style: none;
+}
+
+.custom_btn7 {
+    border-radius: 50px;
+    padding: 15px 100px;
+    background-color: rgb(51, 51, 51);
+    border: 3px solid rgb(252, 219, 90);
+    margin: 13px 50px;
+}
+
+.custom_btn7:hover {
+    background-color: rgb(252, 219, 90);
+    border: none;
+}
+
+.form-control {
+    border: none;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+}
+
+.footer p {
+    color: rgb(204 204 204 / 47%);
+}
+
+.footer .__copy {
+    color: rgb(204 204 204 / 47%);
+}
+
+.footer__item__title h6 {
+    color: white;
+}
+
+.Menu_title {
+    color: white;
+    font-weight: 400;
+}
+
+.footer a {
+    font-size: 13px;
+    text-decoration: none;
+}
+
+.yellow-border-list a:hover {
+    border-bottom: 2px solid yellow;
+}
+
+.footer i {
+    font-size: 16px;
+    padding: 0px 3px;
+}
+
+.footer i:hover {
+    color: orange !important;
+}
+
+.footer .form-control {
+    background-color: transparent;
+}
+
+.white-placeholder::placeholder {
+    color: white;
+}

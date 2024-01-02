@@ -1,0 +1,157 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* NAVBAR */
+.navigation {
+    background-image: url(img_contact/bg_img.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    justify-content: center;
+    align-items: center;
+}
+
+.navigation .dropdown span,
+a {
+    color: rgb(146, 142, 135) !important;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.nav-link {
+    color: white !important;
+}
+
+.nav-link:hover {
+    color: white !important;
+    ;
+    border-bottom: 3px solid transparent;
+}
+
+.navigation .nav-link:hover {
+    border-bottom: 3px rgb(252, 219, 90)
+}
+
+.navigation .nav-link:active {
+    border-bottom: 3px rgb(252, 219, 90)
+}
+
+.custom_btn {
+    border-radius: 25px;
+    padding: 10px 50px;
+    background-color: rgb(252, 219, 90);
+    border: none;
+}
+
+.custom_btn:hover {
+    background-color: #fff;
+    border: 3px solid rgb(252, 219, 90);
+}
+
+.container {
+    padding: 0px 50px;
+}
+
+.nav_content {
+    padding: 0px 80px;
+}
+
+.dropdown-menu {
+    background-color: black;
+}
+
+.dropdown-item {
+    color: white;
+}
+
+.menubar {
+    padding: 30px 60px;
+}
+
+.__title {
+    font-size: 60px;
+    font-weight: 900;
+
+}
+
+.__title span {
+    font-size: 60px;
+    font-weight: 50;
+}
+
+.About_comp {
+    color: white;
+    padding: 60px 10px;
+}
+/* contacts */
+.contacts{
+    padding: 100px 100px;
+}
+.contacts i{
+    padding: 20px 180px;
+}
+/* Get_in_touch */
+.Get_in_touch2 {
+    background-color: rgb(51, 51, 51);
+}
+
+.custom_btn3 {
+    border-radius: 25px;
+    padding: 15px 290px;
+    margin: 50px 10px;
+    background-color: rgb(51, 51, 51);
+    border: 3px solid rgb(252, 219, 90);
+}
+
+.custom_btn3:hover {
+    background-color: rgb(252, 219, 90);
+    border: none;
+}
+
+.white-placeholder::placeholder {
+    color: white;
+    border-bottom: 1px solid white;
+}
+
+.white-placeholder_textarea {
+    color: white;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.theme_color {
+    background-color: rgb(51, 51, 51);
+}
+.get_touch_container{
+    padding: 130px 30px;
+}
+.custom_btn_sub {
+    border-radius: 25px;
+    padding: 15px 40px;
+    border: 3px solid rgb(252, 219, 90)
+}
+
+.custom_btn_sub:hover {
+    background-color: rgb(252, 219, 90);
+    border: none;
+}
+
+.footer i {
+    font-size: 16px;
+    padding: 0px 3px;
+}
+
+.footer i:hover {
+    color: orange !important;
+}
+
+.footer {
+    margin: 26px 10px;
+    font-size: 13px;
+    color: rgb(102, 102, 102);
+    ;
+}

@@ -1,0 +1,84 @@
+@media (max-width: 767px) and (min-width: 320px) {
+
+    .logo_img {
+        width: 100px;
+        margin: 4px -50px;
+    }
+
+    .mobile-menu {
+        display: none;
+    }
+
+    .menu-icon {
+        display: block;
+        cursor: pointer;
+    }
+
+    .menu-icon i {
+        display: block;
+        color: white !important;
+        font-size: 25px;
+    }
+
+    /* Mobile view */
+
+    .mobile-menu {
+        display: block;
+
+    }
+
+    .nav-underline {
+        display: none;
+
+    }
+
+    .menu-toggle:checked~.nav-underline {
+        display: block;
+    }
+
+    .for_mobileview {
+        margin: -90px 200px;
+    }
+
+    .mobile-menu {
+        margin: -85px 200px;
+    }
+/* "AGRICULTURE_FARM" */
+.grain_img{
+    display: none;
+}
+.agri-farm{
+    width: 100% !important;
+}
+.AGRICULTURE_FARM {
+    margin: 50px 0px;
+}
+
+/* icon_image */
+.icon_row{
+    flex-direction: column;
+}
+/* TIMELINE_container */
+.timeline-mobile{
+    flex-direction: column;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
